@@ -6,11 +6,6 @@ import time
 preguntas_por_tema = {
     "Razonamiento verbal": [
         {
-            "pregunta": "¿Qué palabra es sinónimo de 'efímero'?",
-            "opciones": ["A) Perdurable", "B) Transitorio", "C) Eterno", "D) Persistente"],
-            "respuesta": "B"
-        },
-        {
             "pregunta": "Elija el antónimo de 'prudente':",
             "opciones": ["A) Cauto", "B) Sensato", "C) Imprudente", "D) Juicioso"],
             "respuesta": "C"
@@ -311,6 +306,209 @@ preguntas_por_tema = {
         {
             "pregunta": "Si un triángulo tiene tres lados, ¿cuántos lados tiene un cuadrado?",
             "opciones": ["A) 2", "B) 3", "C) 4", "D) 5"],
+            "respuesta": "C"
+        }
+    ],
+
+    "Razonamiento numerico": [
+        {
+            "pregunta": "¿Cuál es el resultado de (15 + 30) ÷ 5?",
+            "opciones": ["A) 9", "B) 10", "C) 8", "D) 7"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuánto es el 20% de 150?",
+            "opciones": ["A) 25", "B) 30", "C) 35", "D) 40"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "La proporción de niños a niñas en una clase es 3:2. Si hay 30 niños, ¿cuántas niñas hay?",
+            "opciones": ["A) 15", "B) 20", "C) 25", "D) 30"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Qué número sigue en la secuencia: 2, 6, 12, 20, ___?",
+            "opciones": ["A) 28", "B) 30", "C) 32", "D) 34"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "Juan tiene 5 años más que María. Si la suma de sus edades es 25, ¿cuántos años tiene María?",
+            "opciones": ["A) 10", "B) 15", "C) 5", "D) 20"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "Un grifo llena un tanque en 6 horas y otro lo vacía en 8 horas. ¿Cuánto tiempo tomará llenar el tanque si ambos están abiertos?",
+            "opciones": ["A) 12", "B) 24", "C) 48", "D) 6"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "Si compras un artículo por $200 y lo vendes con un 15% de ganancia, ¿cuál es el precio de venta?",
+            "opciones": ["A) 230", "B) 220", "C) 210", "D) 240"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "Un auto viaja a 60 km/h durante 3 horas. ¿Qué distancia recorre?",
+            "opciones": ["A) 180 km", "B) 160 km", "C) 200 km", "D) 150 km"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "Resuelve para x: 3x + 5 = 20",
+            "opciones": ["A) 5", "B) 6", "C) 4", "D) 7"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "El promedio de cuatro números es 10. Si tres de ellos son 8, 10 y 12, ¿cuál es el cuarto número?",
+            "opciones": ["A) 10", "B) 12", "C) 8", "D) 9"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "Se mezclan 5 litros de una solución al 20% de azúcar con 5 litros de una solución al 30% de azúcar. ¿Cuál es la concentración final de azúcar?",
+            "opciones": ["A) 20%", "B) 22.5%", "C) 25%", "D) 27.5%"],
+            "respuesta": "C"
+        },
+        {
+            "pregunta": "¿Cuál es el área de un rectángulo con largo 8 cm y ancho 5 cm?",
+            "opciones": ["A) 40 cm²", "B) 35 cm²", "C) 45 cm²", "D) 50 cm²"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuál es la probabilidad de obtener un número par al lanzar un dado?",
+            "opciones": ["A) 1/3", "B) 1/4", "C) 1/2", "D) 2/3"],
+            "respuesta": "C"
+        },
+        {
+            "pregunta": "Un artículo cuesta $120 con un descuento del 25%. ¿Cuál es el precio final?",
+            "opciones": ["A) $90", "B) $80", "C) $95", "D) $100"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuál es el resultado de (18 ÷ 3) × (5 + 2)?",
+            "opciones": ["A) 42", "B) 40", "C) 45", "D) 38"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuánto es la mitad de un tercio de 90?",
+            "opciones": ["A) 15", "B) 20", "C) 10", "D) 25"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuál es el valor de 2⁴ + 3²?",
+            "opciones": ["A) 25", "B) 23", "C) 20", "D) 18"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes números es primo?",
+            "opciones": ["A) 11", "B) 12", "C) 15", "D) 16"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuántos minutos hay en 2.5 horas?",
+            "opciones": ["A) 150", "B) 120", "C) 90", "D) 180"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuál es el mínimo común múltiplo de 8 y 12?",
+            "opciones": ["A) 16", "B) 18", "C) 24", "D) 36"],
+            "respuesta": "C"
+        },
+        {
+            "pregunta": "¿Cuál es el máximo común divisor de 18 y 24?",
+            "opciones": ["A) 4", "B) 6", "C) 8", "D) 12"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "Si 4 libros cuestan $32, ¿cuánto costarán 10 libros?",
+            "opciones": ["A) $60", "B) $70", "C) $75", "D) $80"],
+            "respuesta": "D"
+        },
+        {
+            "pregunta": "¿Cuál es el interés simple de $1000 al 5% anual durante 2 años?",
+            "opciones": ["A) $50", "B) $100", "C) $150", "D) $200"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Cuál es el perímetro de un cuadrado con lado de 5 cm?",
+            "opciones": ["A) 20 cm", "B) 25 cm", "C) 15 cm", "D) 10 cm"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuál es el volumen de un cubo con arista de 3 cm?",
+            "opciones": ["A) 9 cm³", "B) 18 cm³", "C) 27 cm³", "D) 36 cm³"],
+            "respuesta": "C"
+        },
+        {
+            "pregunta": "Si un coche viaja a 80 km/h, ¿cuánto tiempo tardará en recorrer 240 km?",
+            "opciones": ["A) 2 horas", "B) 3 horas", "C) 4 horas", "D) 5 horas"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "Si a:b es 2:3 y b:c es 4:5, ¿cuál es la razón a:c?",
+            "opciones": ["A) 6:15", "B) 8:15", "C) 10:15", "D) 12:15"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Cuáles son las soluciones de la ecuación x² - 5x + 6 = 0?",
+            "opciones": ["A) 1 y 6", "B) 2 y 3", "C) -2 y -3", "D) 0 y 5"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Qué número sigue en la secuencia: 3, 6, 9, 12, ___?",
+            "opciones": ["A) 14", "B) 15", "C) 16", "D) 18"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Cuántos factores tiene el número 12?",
+            "opciones": ["A) 4", "B) 5", "C) 6", "D) 7"],
+            "respuesta": "C"
+        },
+        {
+            "pregunta": "¿De cuántas maneras se pueden ordenar 3 libros en un estante?",
+            "opciones": ["A) 3", "B) 6", "C) 9", "D) 12"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Cuántas combinaciones de 2 elementos se pueden hacer con 5 elementos?",
+            "opciones": ["A) 5", "B) 10", "C) 15", "D) 20"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Cuál es el valor decimal del número binario 1010?",
+            "opciones": ["A) 8", "B) 10", "C) 12", "D) 15"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "¿Qué fracción representa el decimal 0.75?",
+            "opciones": ["A) 1/2", "B) 2/3", "C) 3/4", "D) 4/5"],
+            "respuesta": "C"
+        },
+        {
+            "pregunta": "¿Cuál es mayor: 2/3 o 3/5?",
+            "opciones": ["A) 2/3", "B) 3/5", "C) Son iguales", "D) No se puede determinar"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "¿Cuál es la suma de los primeros 10 números naturales?",
+            "opciones": ["A) 50", "B) 55", "C) 60", "D) 65"],
+            "respuesta": "B"
+        },
+        {
+            "pregunta": "Dos grifos llenan un tanque en 4 y 6 horas respectivamente. ¿Cuánto tiempo tardarán juntos?",
+            "opciones": ["A) 2h24m", "B) 2h30m", "C) 3h", "D) 5h"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "Ana tiene 10 años y su padre tiene 30. ¿Cuál será la razón de sus edades en 5 años?",
+            "opciones": ["A) 3:7", "B) 1:3", "C) 2:5", "D) 3:8"],
+            "respuesta": "A"
+        },
+        {
+            "pregunta": "Un número aumenta en 20% y luego disminuye en 10%. Si el número original era 200, ¿cuál es el resultado final?",
+            "opciones": ["A) 200", "B) 210", "C) 216", "D) 220"],
+            "respuesta": "C"
+        },
+        {
+            "pregunta": "¿Qué número sigue en la secuencia: 1, 4, 9, 16, 25, ___?",
+            "opciones": ["A) 30", "B) 32", "C) 36", "D) 40"],
             "respuesta": "C"
         }
     ]
